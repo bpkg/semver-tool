@@ -1,0 +1,7 @@
+{
+  "name": "semver-tool",
+  "version": "master",
+  "description": "semver is a little tool to manipulate version bumping in a project that follows the semver 2.x specification",
+  "install": "install -b src/semver ${PREFIX:-/usr/local}/bin/semver",
+  "scripts": [ "src/semver" ]
+}
